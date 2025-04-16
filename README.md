@@ -1,1 +1,3 @@
 # CommunityGuidelines
+
+[ガイドライン](./guidline.md)
