@@ -1,0 +1,22 @@
+{
+  "plugins": {},
+  "filters": {},
+  "rules": {
+    "preset-ja-technical-writing": {
+      "no-mix-dearu-desumasu": {
+        "preferInHeader": "ですます", // "である" or "ですます"
+        "preferInBody": "ですます", // "である" or "ですます"
+        "preferInList": "ですます", // "である" or "ですます"
+        // 文末以外でも、敬体(ですます調)と常体(である調)を厳しくチェックするかどうか
+        "strict": true
+      },
+      "no-exclamation-question-mark": false,
+      "ja-no-weak-phrase": false,
+      "ja-no-successive-word": {
+        "allow": [
+          "○"
+        ]
+      }
+    }
+  }
+}
